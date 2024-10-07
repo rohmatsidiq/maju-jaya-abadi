@@ -16,7 +16,7 @@ export default function Testimoni() {
       <h1 className="font-bold text-3xl text-center">Apa Kata Mereka?</h1>
       <Carousel arrows autoplay>
         <div>
-          <div className="mt-5 grid grid-cols-3 gap-5">
+          <div className="mt-5 grid md:grid-cols-3 gap-5">
             <Card className="border-none">
               <div className="flex flex-col justify-center items-center">
                 <FaCircleUser className="text-8xl text-green-500" />
@@ -62,7 +62,7 @@ export default function Testimoni() {
           </div>
         </div>
         <div>
-          <div className="mt-5 grid grid-cols-3 gap-5">
+          <div className="mt-5 grid md:grid-cols-3 gap-5">
             <Card className="border-none">
               <div className="flex flex-col justify-center items-center">
                 <FaCircleUser className="text-8xl text-green-500" />

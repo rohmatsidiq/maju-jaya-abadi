@@ -28,7 +28,7 @@ export default function page() {
         icon={<FaWhatsapp />}
         type="primary"
         style={{
-          insetInlineEnd: 94,
+          insetInlineEnd: 20,
         }}
       />
     </ConfigProvider>

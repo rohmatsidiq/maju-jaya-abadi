@@ -18,10 +18,10 @@ export default function Hero() {
         <Link href="/produk">
           <Button
             icon={<FaArrowRight />}
-            className="mt-5"
+            className="w-full mt-5"
+            shape="round"
             type="primary"
             size="large"
-            shape="round"
           >
             EXPLORE
           </Button>
