@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+.bg-hero {
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-cta {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/23/13/40/iphone-1852901_1280.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +36,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
